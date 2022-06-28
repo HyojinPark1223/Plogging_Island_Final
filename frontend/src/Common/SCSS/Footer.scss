@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+
+footer {
+  background-color: hsl(0, 0%, 27%);
+  padding: 50px 0;
+  .logo {
+    display: flex;
+    justify-content: center;
+    .link {
+      text-decoration: none;
+      h1 {
+        font-family: "Anton", sans-serif;
+        margin: 0.5rem;
+        font-size: 1.5rem;
+        color: #fff;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    p {
+      display: block;
+      color: rgb(207, 204, 204);
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  footer {
+    display: none;
+  }
+}

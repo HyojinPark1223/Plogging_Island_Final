@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+.loginForm {
+  font-family: "Jua", sans-serif;
+  width: 50vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin: 30px 0;
+    font-family: "Black Han Sans", sans-serif;
+  }
+  .authSelect {
+    display: flex;
+    justify-content: flex-end;
+    p {
+      color: rgb(136, 136, 136);
+      font-size: 0.8rem;
+      margin: 10px 0;
+    }
+  }
+  .btn {
+    width: 20vw;
+  }
+}
+
+.left {
+  text-align: left;
+  width: 20vw;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+.navbar {
+  .container-fluid {
+    margin: 10px 100px;
+    .navbar-brand {
+      .logo1 {
+        background: linear-gradient(to bottom, #2eecf3, #77cf44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+        margin: 0;
+        font-family: "Luckiest Guy", cursive;
+        height: 28px;
+        filter: drop-shadow(2px 2px #333);
+      }
+      .logo2 {
+        background: linear-gradient(to bottom, #2ffadf, #77cf44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.8rem;
+        margin: 0;
+        font-family: "Luckiest Guy", cursive;
+        height: 38px;
+        filter: drop-shadow(2px 2px #333);
+      }
+    }
+    .navbar-text {
+      font-family: "Jua", sans-serif;
+      cursor: pointer;
+      display: flex;
+      .nav-link {
+        color: rgb(165, 159, 159);
+      }
+    }
+  }
+  .buttonArea {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    display: none;
+  }
+}

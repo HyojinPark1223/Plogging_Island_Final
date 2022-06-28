@@ -1,0 +1,33 @@
+.Tutorial {
+  .Title {
+    font-family: "Jua", sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin: 200px 200px 0;
+  }
+  .detail {
+    text-align: left;
+    margin: 20px 230px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(58, 57, 57);
+    p {
+      font-size: 1.3rem;
+      margin: 0;
+    }
+  }
+  .Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 200px;
+    img {
+      width: 70vw;
+      height: 75vh;
+    }
+    h1 {
+      font-family: "Jua", sans-serif;
+      font-size: 2rem;
+    }
+  }
+}
